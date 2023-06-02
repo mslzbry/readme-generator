@@ -18,7 +18,8 @@ function generateMarkdown (data) {
   markdown = `# ${data.title} \n`
 
   // 2. Create description
-  markdown += `## ${data.description} \n`
+  markdown += `## Description \n`
+  markdown += `${data.description} \n`
 
   // 3. Create table of contents
   const contents = [
