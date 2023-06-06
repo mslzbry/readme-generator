@@ -37,7 +37,7 @@ function renderLicenseSection (license) {
   if (license != 'None') {
     licenseSection += '## License\n'
     licenseSection += `This application uses the ${license} license. Please see
-      ${renderLicenseLink(license)} for more information on this license\n`
+      ${renderLicenseLink(license)} for more information on this license.\n`
   }
 
   return licenseSection
